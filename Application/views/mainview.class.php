@@ -12,7 +12,7 @@ class MainView
 		$this->model = $model;
 	}
 	/**
-	* Hej?
+	* HEEEEEJ
 	*/
 	public function output()
 	{
