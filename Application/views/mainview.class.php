@@ -11,7 +11,9 @@ class MainView
 		$this->controller = $controller;
 		$this->model = $model;
 	}
-
+	/**
+	* HEEEEEJ
+	*/
 	public function output()
 	{
 		return '<p><a href="index.php?action=clicked">' . $this->model->string . "</a></p>";
