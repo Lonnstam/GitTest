@@ -15,6 +15,7 @@ if (isset($_GET['action']) && !empty($_GET['action'])) {
 }
 
 if(isset($routeController)){
+	//blubb
 	echo $routeController;
 }
 echo $view->output();
