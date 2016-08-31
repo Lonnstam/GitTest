@@ -13,7 +13,7 @@ $view = new MainView($controller, $model);
 if (isset($_GET['action']) && !empty($_GET['action'])) {
     $controller->$_GET['action']();
 }
-
+//comment
 if(isset($routeController)){
 	echo $routeController;
 }
