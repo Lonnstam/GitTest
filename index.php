@@ -18,3 +18,5 @@ if(isset($routeController)){
 	echo $routeController;
 }
 echo $view->output();
+
+//test
